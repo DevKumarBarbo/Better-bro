@@ -6,7 +6,7 @@ const server = http.createServer();
 server.listen(process.env.PORT || 3000);
 
 const API_KEY = 'uFRRf_mVJuI3NrKeAoJ_zzCim3Bg7aWI';
-const N8N_WEBHOOK = 'https://rjdxs.app.n8n.cloud/webhook/96ac24d7-dafa-478d-94c8-4072fcd00b67';
+const N8N_WEBHOOK = 'https://rjdxs.app.n8n.cloud/webhook-test/96ac24d7-dafa-478d-94c8-4072fcd00b67';
 
 const FEEDS = [
   {

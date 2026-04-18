@@ -1,5 +1,9 @@
+const http = require('http');
 const WebSocket = require('ws');
 const axios = require('axios');
+
+const server = http.createServer();
+server.listen(process.env.PORT || 3000);
 
 const API_KEY = 'uFRRf_mVJuI3NrKeAoJ_zzCim3Bg7aWI';
 const N8N_WEBHOOK = 'https://rjdxs.app.n8n.cloud/webhook/239324c6-c242-466b-a361-1cd16e47f89a';
